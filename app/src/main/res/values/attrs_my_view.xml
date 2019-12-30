@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="MyView">
+        <attr name="exampleTime" format="integer" />
+        <attr name="exampleBc" format="color" />
+        <attr name="examplePc" format="color" />
+        <attr name="exampleLc" format="color" />
+        <attr name="exampleDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>

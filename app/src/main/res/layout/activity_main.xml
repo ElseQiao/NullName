@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+    <com.allen.money.MyView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#ccc"
+        android:paddingLeft="20dp"
+        android:paddingBottom="40dp"
+        app:exampleBc="@color/colorAccent"
+        app:exampleLc="@color/colorPrimary"
+        app:examplePc="@color/colorPrimaryDark"
+        app:exampleDrawable="@android:drawable/ic_menu_add"
+        app:exampleTime="30"
+        />
+
+
+    <EditText
+        android:id="@+id/editText_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="2019"
+        android:ems="4"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Button"
+         />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        />
+
+</LinearLayout>
